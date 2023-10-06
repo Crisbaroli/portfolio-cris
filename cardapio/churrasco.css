@@ -1,0 +1,62 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif 
+   }
+
+.cardapio{
+  margin: 50px;
+ background-image: url(churrasco/LUZAborda.jpg);
+ height: 400px;
+  background-repeat: round;
+ background-size: cover;
+}
+
+.lugar{
+  text-align: center;
+  font-size: 30px;
+  border: 2px solid yellow;
+  padding: 10px 8px;
+  margin: 20px 20px 10px 5px;
+  border-radius: 8px;
+
+}
+
+.p_t{
+margin-top: 15px;
+}
+
+ .p1{
+  text-align: center;
+  font-size: 60px;
+  border: 2px solid yellow;
+  border-radius: 8px;
+  padding: 30px;
+   margin: 35px 100px;
+}
+
+
+.ajeit{
+  border: 2px solid yellow;
+  border-radius: 8px;
+  padding: 30px;
+  font-size: 20px;
+  margin-top: 35px;
+}
+
+
+
+.rodape{
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 2px;
+}
+
+.obs{
+  margin-left: 40px;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+
+

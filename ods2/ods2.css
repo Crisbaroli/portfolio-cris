@@ -1,0 +1,300 @@
+:root{
+  --azul1:  rgb(181, 236, 247);
+  --azul2: rgb(7, 193, 226);
+  --azul3: rgb(130, 190, 233);
+  --grey: rgb(74, 71, 71);
+  
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Ysabeau, sans-serif;
+    min-height: 100vh;
+    max-width: 100%;       
+ }
+ body{
+    margin: 0;
+    overflow-x: hidden;
+       
+}
+main{
+    background-color: var(--azul1);
+    color: var(--grey);  
+}
+a, p{
+    font-size: 2.4rem;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 4.5rem;
+    color: white;     
+}
+h2{
+    font-size: 3.4rem;
+ }
+
+h3{
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+.ods_header{
+    display: flex;
+    background-color:var(--azul2);
+    padding: 5rem 0 1rem 0;
+    
+    
+}
+.navbar{
+    background-color: var(--azul1);
+  
+}
+
+.navbar a{
+    color: var(--grey); 
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+.navbar a:hover{
+    background-color: var(--azul2);
+    border-radius: 1rem;
+    padding: 1rem;
+    transition: .3s;
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    margin: 3rem;
+    
+}
+
+.titulo{
+    margin-top: 0;
+}
+.ods_h1{
+    
+    margin: 4rem 5rem;
+}
+.img1{
+    width: 30em;
+    height: 30em;
+    padding-top: 2rem;
+    margin-right: 2rem;
+}
+.container-section1{
+    margin-left: 4rem;
+    padding: 1.5rem 0;
+}
+.p1{
+   
+    text-align: left;
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+.img2{
+    border-radius: 100%;
+    margin-left: 4rem;
+    width: 50em;
+    height: 50em;
+   
+}
+.ods_h2_1{
+    margin: 2.4rem;
+    text-align: center;
+}
+.ods_h2_1::before{
+    content: ">>>>> ";
+}
+.ods_h2_1::after{
+    content: " <<<<<";
+}
+.p_ods6{
+    
+    text-align: center;
+    margin-top: 0;
+   
+}
+.ods6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   ;
+   
+}
+.btn2{
+        font-size: 1.8rem;
+       font-size: 1.8rem;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        display: inline-block;
+        color: var(--grey);
+        border: solid 2.5px;
+        border-radius: .5rem;
+    }
+    .btn2:hover{
+        background-color: var(--azul3);
+         border-color: var(--grey);
+         text-decoration: none;
+         color: var(--grey);
+    }
+    .san2{
+        padding: 4rem 0 5rem 0;
+    }
+    .ods_h3_1{
+        margin: 2.4rem;  
+    }
+    
+    .ods_h3_1::before{
+        content: ">>> ";
+    }
+    .saneamento{
+        background-color: var(--azul3);
+    }
+    .container-section2{
+       margin: 0;
+        padding: 4.5rem;
+        
+    }
+    .legenda{
+        font-size: 1.6rem;
+    }
+    .san1{
+        text-align: center;
+        margin-left: 13rem;
+    }
+      .brasil{
+        margin: 0 1rem;
+        padding-left: 2rem;
+      }
+    .img3{
+        margin-right: 4rem;
+        width: 55em;
+        height: 40em;
+       border-radius: .5rem;
+    }
+    .esgoto{
+      padding: 0;
+        margin-left: 0;
+    }
+    
+    .container-section3{
+        margin: 0;
+    }
+    .calc{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+  
+    .video1{
+        display: block;
+        margin: 0 auto;
+    }
+.jd{
+    margin: 0;
+}
+.img8{
+    border-radius: .5rem;
+}
+
+.img9{
+    border-radius: .5rem;
+    width: 60em;
+    height: 40em;
+    margin-left: 0;
+       
+}
+.banheiro{
+    margin: 0;
+}
+.seco1{
+    display: flex;
+    justify-content: space-between;
+   
+   
+    
+}
+ 
+.img10{
+    border-radius: .5rem;
+    width: 50em;
+    height: 40em;
+   
+    } 
+
+.img11{
+    border-radius: .5rem;
+    width: 50em;
+    height: 40em;
+  
+}
+.pseco{
+    margin-top: 3rem;
+}
+.sobre_cor{
+    background-color: var(--azul3);
+    padding-top: 4rem;
+}
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    
+    }
+    
+    .sobre1{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .sobre1::before{
+        content: ">>>>> ";
+    }
+    
+    .sobre1::after{
+        content: " <<<<<";
+    }
+    
+    .sobre2{
+        font-size: 2.4rem;
+        margin-left: 3rem;
+    }
+    
+    .img12{
+        width: 20em;
+        height: 24em;
+        border-radius: 100%;
+        margin-left: 3rem;
+    }
+    .contato{
+        font-size: 1.2rem;
+        margin-top: 1.3rem;
+        margin-left: 3rem;
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        color: var(--grey);
+        gap: 2rem;
+        padding-bottom: 4rem;
+    }
+    .rodape{
+        padding: 1rem;
+        margin: 0;
+        background-color: var(--azul2);
+    }
+    .foot1{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    
+    
+    
+   
+
+
+
+

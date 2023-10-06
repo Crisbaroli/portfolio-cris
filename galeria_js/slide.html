@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs' slides</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="img">
+        <ul class="img-content">
+          <li> <img src="dogs/bola1.jpg" alt="bola1"></li>
+          <li><img src="dogs/di1.jpg" alt="di1"></li>
+          <li><img src="dogs/ga1.jpg" alt="ga1"></li>
+          <li><img src="dogs/mo1.jpg" alt="mo1"></li>
+          <li><img src="dogs/sa1.jpg" alt="sa1"></li>
+          <li><img src="dogs/bola2.jpg" alt="bola2"></li>
+          <li> <img src="dogs/di2.jpg" alt="di2"></li>
+          <li> <img src="dogs/ga2.jpg" alt="ga2"></li>
+          <li><img src="dogs/mo2.jpg" alt="mo2"></li>
+          <li><img src="dogs/sa2.jpg" alt="sa2"></li>
+          <li><img src="dogs/bola3.jpg" alt="bola3"></li>
+          <li><img src="dogs/di3.jpg" alt="di3"></li>
+          <li><img src="dogs/mo3.jpg" alt="mo3"></li>
+          <li><img src="dogs/os4.jpg" alt="os4"></li>
+        </ul>
+      </div>
+
+<script>
+    const root = document.documentElement;
+    const imgElementsDisplayed = getComputedStyle(root).getPropertyValue("--img-elements-displayed");
+    const imgContent = document.querySelector("ul.img-content");
+    
+    root.style.setProperty("--img-elements", imgContent.children.length);
+    
+    for(let i=0; i<imgElementsDisplayed; i++) {
+    imgContent.appendChild(imgContent.children[i].cloneNode(true));
+    }
+</script>
+    
+</body>
+</html>

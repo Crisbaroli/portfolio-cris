@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(247, 236, 241);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    color: rgb(182, 35, 99);
+    margin-bottom: 56px;
+    
+    }
+    h1{
+        padding: 10px ;
+        background-color: #eecddd;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 0%;
+        color: #b62363;
+    }
+    .p1{
+            text-align: center;
+           
+                     
+    }
+    .redes_sociais{
+        margin-top: 5px;
+    }
+    
+    .icon{
+        display: inline-block;
+        margin: 1px solid #b62363 ;
+        padding-top: 0;
+        cursor: pointer;
+        
+        
+    }
+    .icon:hover{
+        background: #eecddd;
+    }
+    .github{
+        margin-left: 15px;
+    }
+    p{
+        line-height: 1.5;
+    }
+    h3{
+        color: #b62363;
+        background-color: #eecddd;
+        font-size: 28px;
+        border-bottom: 3px solid;
+        padding: 10px;
+        margin-top: 48px;
+        margin-bottom: 12px;
+    }
+    ul{
+        padding-left: 0;
+    }
+    li{
+        list-style-position: inside;
+        list-style-type: square;
+    }
+    a{
+        display: block;
+        position: relative;
+        z-index: 1;
+        padding: 2em;
+        margin: -2em;
+    }
+    
+    button{
+        background-color:  #eecddd;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b62363;
+        border: 1px solid #b62363;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+            .btn{
+                margin-top: 20px;
+                padding: 10px 
+
+                
+            }
+            @media print{
+                .h1print{
+                    font-size: 38px;
+                }
+                .noprint{
+                    visibility: hidden;
+                }
+            }
+    
